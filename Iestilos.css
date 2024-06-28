@@ -116,6 +116,6 @@ cursor: pointer;
 }
 .int {
 font-size: 60px;
-width: 50vw;
-margin: auto;
+display: inline-block;
+font-size: 40px;
 }
