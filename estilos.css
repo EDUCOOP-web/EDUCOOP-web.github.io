@@ -1,0 +1,102 @@
+* {
+margin: 0px;
+padding: 0px;
+background: #000;
+color: white;
+max-width: 100vw;
+}
+*::selection {
+background: #EEBA02;
+}
+a::selection {
+background: #F4762A;
+}
+header h1 {
+text-align: center;
+font-size: 75px;
+margin-top: 125px;
+margin-bottom: 10px;
+color: #F4762A;
+}
+header center img {
+margin-bottom: 30px;
+}
+header nav a {
+color: #EEBA02;
+font-size: 30px;
+transition: .5s;
+}
+header nav a:hover {
+color: #EEBA02;
+font-size: 40px;
+}
+article section h2 {
+text-align: center;
+margin-top: 40px;
+margin-bottom: 20px;
+font-size: 60px;
+color: #6FA535;
+}
+article section #img img {
+width: 100%;
+}
+article section b {
+font-size: 30px;
+}
+article {
+margin-left: 10px;
+margin-bottom: 60px;
+}
+article #video {
+margin-top: 100px;
+}
+.ver {
+position: fixed;
+display: flex;
+flex-wrap: wrap;
+top: -100vh;
+padding-top: 15px;
+width: 100vw;
+opacity: .8;
+background: #000;
+transition-duration: .75s;
+z-index: 2;
+justify-content: center;
+}
+.menú {
+position: fixed;
+display: block;
+top: 0;
+padding-top: 32px;
+width: 100vw;
+opacity: .8;
+background: #000;
+z-index: 3;
+}
+.menú:hover {
+cursor: pointer;
+}
+.todo:hover > .ver{
+top: 78px;
+cursor: pointer;
+}
+.menú h2 {
+color: #EEBA02;
+float: right;
+font-size: 40px;
+margin-right: 20px;
+}
+a {
+color: #EEBA02;
+font-size: 30px;
+transition: .5s;
+margin-left: 15px;
+}
+.a {
+max-width: 600px;
+margin-top: 15px;
+}
+header nav a:hover {
+color: #EEBA02;
+font-size: 40px;
+}
